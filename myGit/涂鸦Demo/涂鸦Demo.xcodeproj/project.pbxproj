@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98406D0A1847AAF4004E1CBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98406D091847AAF4004E1CBB /* UIKit.framework */; };
+		98406D0C1847AAF4004E1CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98406D0B1847AAF4004E1CBB /* Foundation.framework */; };
+		98406D0E1847AAF4004E1CBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98406D0D1847AAF4004E1CBB /* CoreGraphics.framework */; };
+		98406D141847AAF4004E1CBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98406D121847AAF4004E1CBB /* InfoPlist.strings */; };
+		98406D161847AAF4004E1CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98406D151847AAF4004E1CBB /* main.m */; };
+		98406D1A1847AAF4004E1CBB /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98406D191847AAF4004E1CBB /* WJAppDelegate.m */; };
+		98406D1C1847AAF5004E1CBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D1B1847AAF5004E1CBB /* Default.png */; };
+		98406D1E1847AAF5004E1CBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D1D1847AAF5004E1CBB /* Default@2x.png */; };
+		98406D201847AAF5004E1CBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D1F1847AAF5004E1CBB /* Default-568h@2x.png */; };
+		98406D341847AB85004E1CBB /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D271847AB85004E1CBB /* color.png */; };
+		98406D351847AB85004E1CBB /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D281847AB85004E1CBB /* colorWheel.png */; };
+		98406D361847AB85004E1CBB /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D291847AB85004E1CBB /* eraser.png */; };
+		98406D371847AB85004E1CBB /* MyPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98406D2B1847AB85004E1CBB /* MyPaletteViewController.m */; };
+		98406D381847AB85004E1CBB /* MyPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98406D2C1847AB85004E1CBB /* MyPaletteViewController.xib */; };
+		98406D391847AB85004E1CBB /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 98406D2E1847AB85004E1CBB /* Palette.m */; };
+		98406D3A1847AB85004E1CBB /* ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D2F1847AB85004E1CBB /* ruler.png */; };
+		98406D3B1847AB85004E1CBB /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D301847AB85004E1CBB /* save.png */; };
+		98406D3C1847AB85004E1CBB /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D311847AB85004E1CBB /* trash.png */; };
+		98406D3D1847AB85004E1CBB /* tupian.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D321847AB85004E1CBB /* tupian.png */; };
+		98406D3E1847AB85004E1CBB /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98406D331847AB85004E1CBB /* undo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98406D061847AAF4004E1CBB /* 涂鸦Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "涂鸦Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98406D091847AAF4004E1CBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98406D0B1847AAF4004E1CBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98406D0D1847AAF4004E1CBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98406D111847AAF4004E1CBB /* 涂鸦Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "涂鸦Demo-Info.plist"; sourceTree = "<group>"; };
+		98406D131847AAF4004E1CBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98406D151847AAF4004E1CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98406D171847AAF4004E1CBB /* 涂鸦Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "涂鸦Demo-Prefix.pch"; sourceTree = "<group>"; };
+		98406D181847AAF4004E1CBB /* WJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAppDelegate.h; sourceTree = "<group>"; };
+		98406D191847AAF4004E1CBB /* WJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAppDelegate.m; sourceTree = "<group>"; };
+		98406D1B1847AAF5004E1CBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98406D1D1847AAF5004E1CBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98406D1F1847AAF5004E1CBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		98406D271847AB85004E1CBB /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		98406D281847AB85004E1CBB /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorWheel.png; sourceTree = "<group>"; };
+		98406D291847AB85004E1CBB /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		98406D2A1847AB85004E1CBB /* MyPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPaletteViewController.h; sourceTree = "<group>"; };
+		98406D2B1847AB85004E1CBB /* MyPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPaletteViewController.m; sourceTree = "<group>"; };
+		98406D2C1847AB85004E1CBB /* MyPaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPaletteViewController.xib; sourceTree = "<group>"; };
+		98406D2D1847AB85004E1CBB /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		98406D2E1847AB85004E1CBB /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		98406D2F1847AB85004E1CBB /* ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
+		98406D301847AB85004E1CBB /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		98406D311847AB85004E1CBB /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		98406D321847AB85004E1CBB /* tupian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tupian.png; sourceTree = "<group>"; };
+		98406D331847AB85004E1CBB /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98406D031847AAF4004E1CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98406D0A1847AAF4004E1CBB /* UIKit.framework in Frameworks */,
+				98406D0C1847AAF4004E1CBB /* Foundation.framework in Frameworks */,
+				98406D0E1847AAF4004E1CBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98406CFD1847AAF4004E1CBB = {
+			isa = PBXGroup;
+			children = (
+				98406D0F1847AAF4004E1CBB /* 涂鸦Demo */,
+				98406D081847AAF4004E1CBB /* Frameworks */,
+				98406D071847AAF4004E1CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98406D071847AAF4004E1CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98406D061847AAF4004E1CBB /* 涂鸦Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98406D081847AAF4004E1CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98406D091847AAF4004E1CBB /* UIKit.framework */,
+				98406D0B1847AAF4004E1CBB /* Foundation.framework */,
+				98406D0D1847AAF4004E1CBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98406D0F1847AAF4004E1CBB /* 涂鸦Demo */ = {
+			isa = PBXGroup;
+			children = (
+				98406D181847AAF4004E1CBB /* WJAppDelegate.h */,
+				98406D191847AAF4004E1CBB /* WJAppDelegate.m */,
+				98406D261847AB85004E1CBB /* 涂鸦 */,
+				98406D101847AAF4004E1CBB /* Supporting Files */,
+			);
+			path = "涂鸦Demo";
+			sourceTree = "<group>";
+		};
+		98406D101847AAF4004E1CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98406D111847AAF4004E1CBB /* 涂鸦Demo-Info.plist */,
+				98406D121847AAF4004E1CBB /* InfoPlist.strings */,
+				98406D151847AAF4004E1CBB /* main.m */,
+				98406D171847AAF4004E1CBB /* 涂鸦Demo-Prefix.pch */,
+				98406D1B1847AAF5004E1CBB /* Default.png */,
+				98406D1D1847AAF5004E1CBB /* Default@2x.png */,
+				98406D1F1847AAF5004E1CBB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98406D261847AB85004E1CBB /* 涂鸦 */ = {
+			isa = PBXGroup;
+			children = (
+				98406D271847AB85004E1CBB /* color.png */,
+				98406D281847AB85004E1CBB /* colorWheel.png */,
+				98406D291847AB85004E1CBB /* eraser.png */,
+				98406D2A1847AB85004E1CBB /* MyPaletteViewController.h */,
+				98406D2B1847AB85004E1CBB /* MyPaletteViewController.m */,
+				98406D2C1847AB85004E1CBB /* MyPaletteViewController.xib */,
+				98406D2D1847AB85004E1CBB /* Palette.h */,
+				98406D2E1847AB85004E1CBB /* Palette.m */,
+				98406D2F1847AB85004E1CBB /* ruler.png */,
+				98406D301847AB85004E1CBB /* save.png */,
+				98406D311847AB85004E1CBB /* trash.png */,
+				98406D321847AB85004E1CBB /* tupian.png */,
+				98406D331847AB85004E1CBB /* undo.png */,
+			);
+			path = "涂鸦";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98406D051847AAF4004E1CBB /* 涂鸦Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98406D231847AAF5004E1CBB /* Build configuration list for PBXNativeTarget "涂鸦Demo" */;
+			buildPhases = (
+				98406D021847AAF4004E1CBB /* Sources */,
+				98406D031847AAF4004E1CBB /* Frameworks */,
+				98406D041847AAF4004E1CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "涂鸦Demo";
+			productName = "涂鸦Demo";
+			productReference = 98406D061847AAF4004E1CBB /* 涂鸦Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98406CFE1847AAF4004E1CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Wangjue;
+			};
+			buildConfigurationList = 98406D011847AAF4004E1CBB /* Build configuration list for PBXProject "涂鸦Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98406CFD1847AAF4004E1CBB;
+			productRefGroup = 98406D071847AAF4004E1CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98406D051847AAF4004E1CBB /* 涂鸦Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98406D041847AAF4004E1CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98406D141847AAF4004E1CBB /* InfoPlist.strings in Resources */,
+				98406D1C1847AAF5004E1CBB /* Default.png in Resources */,
+				98406D1E1847AAF5004E1CBB /* Default@2x.png in Resources */,
+				98406D201847AAF5004E1CBB /* Default-568h@2x.png in Resources */,
+				98406D341847AB85004E1CBB /* color.png in Resources */,
+				98406D351847AB85004E1CBB /* colorWheel.png in Resources */,
+				98406D361847AB85004E1CBB /* eraser.png in Resources */,
+				98406D381847AB85004E1CBB /* MyPaletteViewController.xib in Resources */,
+				98406D3A1847AB85004E1CBB /* ruler.png in Resources */,
+				98406D3B1847AB85004E1CBB /* save.png in Resources */,
+				98406D3C1847AB85004E1CBB /* trash.png in Resources */,
+				98406D3D1847AB85004E1CBB /* tupian.png in Resources */,
+				98406D3E1847AB85004E1CBB /* undo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98406D021847AAF4004E1CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98406D161847AAF4004E1CBB /* main.m in Sources */,
+				98406D1A1847AAF4004E1CBB /* WJAppDelegate.m in Sources */,
+				98406D371847AB85004E1CBB /* MyPaletteViewController.m in Sources */,
+				98406D391847AB85004E1CBB /* Palette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98406D121847AAF4004E1CBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98406D131847AAF4004E1CBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98406D211847AAF5004E1CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98406D221847AAF5004E1CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98406D241847AAF5004E1CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦Demo/涂鸦Demo-Prefix.pch";
+				INFOPLIST_FILE = "涂鸦Demo/涂鸦Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98406D251847AAF5004E1CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦Demo/涂鸦Demo-Prefix.pch";
+				INFOPLIST_FILE = "涂鸦Demo/涂鸦Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98406D011847AAF4004E1CBB /* Build configuration list for PBXProject "涂鸦Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98406D211847AAF5004E1CBB /* Debug */,
+				98406D221847AAF5004E1CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98406D231847AAF5004E1CBB /* Build configuration list for PBXNativeTarget "涂鸦Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98406D241847AAF5004E1CBB /* Debug */,
+				98406D251847AAF5004E1CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98406CFE1847AAF4004E1CBB /* Project object */;
+}

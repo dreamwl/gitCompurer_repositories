@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Lit View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SQLitViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.69999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6lB-kQ-a7F">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="yiu-nu-mnG"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="valueChange:" destination="2" eventType="valueChanged" id="y4d-dD-KMs"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6lB-kQ-a7F" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="62" id="6gc-Yz-2WM"/>
+                            <constraint firstAttribute="bottom" secondItem="6lB-kQ-a7F" secondAttribute="bottom" constant="178" id="w4Q-HH-wTq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="6lB-kQ-a7F" id="nOa-rO-JeV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
